@@ -75,5 +75,11 @@ Requires:
 # For devices where test_gps eventually gets a fix:
 - geoclue-provider-hybris
 
+#adding these for gps/sensors testing in the UI
+# requires manually adding repo --name=testing2 --baseurl=http://repo.merproject.org/obs/home:/mal:/testing2/sailfishos_latest_armv7hl
+# to tmp/$KS
+# see http://releases.sailfishos.org/sfa-ea/2014-07-18_SailfishOSHardwareAdaptationDevelopmentKit.pdf - just after Section 8.2
+- harbour-messwerk
+- harbour-gpsinfo
 Summary: Jolla HW Adaptation jfltexx
 
