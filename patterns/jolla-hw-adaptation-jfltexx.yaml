@@ -74,7 +74,7 @@ Requires:
 
 # For devices where test_gps eventually gets a fix:
 - geoclue-provider-hybris
-
+- pulseaudio-modules-droid-glue
 #adding these for gps/sensors testing in the UI 
 # requires manually adding repo --name=testing2 --baseurl=http://repo.merproject.org/obs/home:/mal:/testing2/sailfishos_latest_armv7hl
 # to tmp/$KS
