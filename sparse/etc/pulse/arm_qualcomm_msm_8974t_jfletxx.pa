@@ -28,8 +28,7 @@ load-module module-droid-keepalive
 load-module module-meego-parameters cache=1 directory=/var/lib/nemo-pulseaudio-parameters use_voice=false
 
 ### Automatically restore the volume of streams
-load-module module-stream-restore-nemo restore_device=no restore_volume=yes restore_muted=no route_table=/etc/pulse/x-maemo-route.table 
-fallback_table=/etc/pulse/x-maemo-stream-restore.table use_voice=false sink_volume_table=/etc/pulse/x-maemo-sink-volume.table
+load-module module-stream-restore-nemo restore_device=no restore_volume=yes restore_muted=no route_table=/etc/pulse/x-maemo-route.table fallback_table=/etc/pulse/x-maemo-stream-restore.table use_voice=false sink_volume_table=/etc/pulse/x-maemo-sink-volume.table
 
 load-module module-match table=/etc/pulse/x-maemo-match.table key=application.name
 
