@@ -39,6 +39,8 @@ Requires:
 - gstreamer1.0-plugins-bad
 - nemo-gstreamer1.0-interfaces
 
+- gstreamer1.0-droid
+
 # This is needed for notification LEDs
 - mce-plugin-libhybris
 
@@ -83,6 +85,7 @@ Requires:
 - harbour-messwerk
 - harbour-gpsinfo
 
-# Adding openrepos.net client - Warehouse - rpm must be manually added to local-jfltexx-hal repo and repo refreshed
+# Adding Warehouse
 - harbour-warehouse
+
 Summary: Jolla HW Adaptation jfltexx

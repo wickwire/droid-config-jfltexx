@@ -1,0 +1,10 @@
+[Unit]
+Description=jfltexx-fixes
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/jfltexx.fix.logcat.sh ; \
+    /usr/local/bin/jfltexx.fix.zyppcache.sh
+
+[Install]
+WantedBy=basic.target
