@@ -88,4 +88,7 @@ Requires:
 # Adding Warehouse
 - harbour-warehouse
 
+# Adding bluetooth dependency
+- brcm-patchram-plus
+
 Summary: Jolla HW Adaptation jfltexx

@@ -1,0 +1,1 @@
+SUBSYSTEM=="rfkill", ATTR{type}=="bluetooth", RUN+="/usr/bin/droid/bluetooth-rfkill.sh"
